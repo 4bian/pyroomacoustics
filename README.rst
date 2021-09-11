@@ -167,10 +167,8 @@ On top of that, some functionalities of the package depend on extra packages::
 The ``requirements.txt`` file lists all packages necessary to run all of the
 scripts in the ``examples`` folder.
 
-This package is mainly developed under Python 3.5. We try as much as possible to keep
-things compatible with Python 2.7 and run tests and builds under both. However, the tests
-code coverage is far from 100% and it might happen that we break some things in Python 2.7 from
-time to time. We apologize in advance for that.
+This package is mainly developed under Python 3.6. The last supported version for Python 2.7 is
+``0.4.3``.
 
 Under Linux and Mac OS, the compiled accelerators require a valid compiler to
 be installed, typically this is GCC. When no compiler is present, the package
@@ -181,7 +179,7 @@ slower. On Windows, we provide pre-compiled Python Wheels for Python 3.5 and
 Example
 -------
 
-Here is a quick example of how to create and visual the response of a
+Here is a quick example of how to create and visualize the response of a
 beamformer in a room.
 
 .. code-block:: python
@@ -257,7 +255,7 @@ License
 
 ::
 
-  Copyright (c) 2014-2018 EPFL-LCAV
+  Copyright (c) 2014-2021 EPFL-LCAV
 
   Permission is hereby granted, free of charge, to any person obtaining a copy of
   this software and associated documentation files (the "Software"), to deal in
